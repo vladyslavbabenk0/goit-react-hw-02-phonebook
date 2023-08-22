@@ -4,7 +4,7 @@ import css from './ContactItem.module.css';
 
 const ContactItem = ({ id, name, number, handleDelete }) => {
   return (
-    <li key={id} className={css.contactItem}>
+    <li className={css.contactItem}>
       <span>
         {name}: {number}
       </span>
